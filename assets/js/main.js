@@ -235,6 +235,7 @@
 				});
 
 			// Hide intro on scroll (<= small).
+			/*
 				breakpoints.on('<=small', function() {
 
 					$main.unscrollex();
@@ -252,6 +253,7 @@
 					});
 
 			});
+			*/
 
 		}
 
