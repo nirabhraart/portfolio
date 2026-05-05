@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>\
 		<!-- Preloads -->
-		<link rel="preload" href="images/" />
+		<link rel="preload" href="images/nar/p1.jpg" />
 		<link rel="preload" href="images/" />
 		<link rel="preload" href="images/" />
 		<link rel="preload" href="images/" />
@@ -54,6 +54,25 @@
 						</header>
 
 						<div class="slideshow">
+							<p>Storyboards with the script and promotional key-art for my second year module with a focus on narrative elements. Concept work for the superheroes can be viewed on the Concept Art page.</p>
+							<div style="position: sticky">
+							<img class="image main s1" src="images/nar/p1.jpg" />
+							<img class="image main s1" src="images/nar/p2.jpg" />
+							<img class="image main s1" src="images/nar/p3.jpg" />
+							<img class="image main s1" src="images/nar/p4.jpg" />
+							<img class="image main s1" src="images/nar/p5.jpg" />
+							<img class="image main s1" src="images/nar/p6.jpg" />
+							<img class="image main s1" src="images/nar/p7.jpg" />
+							<img class="image main s1" src="images/nar/ch1.jpg" />
+							<img class="image main s1" src="images/nar/ch2.jpg" />
+							<img class="image main s1" src="images/nar/ch3.jpg" />
+							<img class="image main s1" src="images/nar/ch4.jpg" />
+							<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a><div style="position:relative !important"></div>
+							<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>		
+							</div>						
+						</div>
+
+						<div class="slideshow">
 							<p>My part in a trailer for a group project. Both the key scene and animation are done by me.</p>					
                             <video class="image main" controls autoplay>
                                 <source src="images/trailer.mp4" type="video/mp4">
@@ -62,14 +81,11 @@
 						</div>
 
 			</div>
-		<!-- Scripts 
+		<!-- Scripts  -->
 		 	<script>
-				let slideIndex = [1,1,1,1];
-				let slideId = ["s1", "s2", "s3","s4"]
+				let slideIndex = [1];
+				let slideId = ["s1"]
 				showSlides(1, 0);
-				showSlides(1, 1);
-				showSlides(1, 2);
-				showSlides(1, 3);
 
 				function plusSlides(n, no) {
 					showSlides(slideIndex[no] += n, no);
@@ -84,7 +100,7 @@
 						x[i].style.display = "none";  
 					}
 					x[slideIndex[no]-1].style.display = "block";  
-				} -->
+				}
 			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
